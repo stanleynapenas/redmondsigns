@@ -1,0 +1,294 @@
+/* stylesheet css components stanleynapenas.com */
+
+/* Macro Class */
+.body {
+  background-color: #f3f3f5;
+  padding: 20px;
+  font-family: "Asap", sans-serif;
+}
+
+/* Fonts and Text */
+
+.h1 {
+  font-size: 72px;
+  font-weight: 60;
+  line-height: 1.2em;
+}
+.h2 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+.h3 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+.h4 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+.h5 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+.h6 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+.p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Asap', sans-serif;
+  line-height: 1.6em;
+}
+
+blockquote {
+  font-family: 'Asap', sans-serif;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  font-size: 19px;
+  border-left: 3px solid #ebebeb;
+}
+
+
+
+/* LOGO */
+
+.logo {
+  height: 90px;
+  transition: ease-in-out 500ms;
+}
+
+.logo:hover {
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+/* Macro Components in Stylesheet */
+.white-box {
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 40px;
+  padding: 40px 40px;
+}
+
+.title-absolute {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  text-transform: uppercase;
+}
+
+.white-divider {
+  width: 100%;
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: #f3f3f5;
+}
+
+.title-grey {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #cccccc;
+  margin-bottom: 40px;
+}
+
+.col2 {
+  margin-top: 30px;
+}
+
+.margin-top60 {
+  margin-top: 60px;
+}
+
+/* btn-primary */
+.btn-primary {
+  color: #fff;
+  background-color: #ef4236;
+}
+.btn-primary:focus {
+  background-color: #ef4236;
+  box-shadow: 1px, 1px, 0 #33333310;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #ef4236;
+  box-shadow: 1px, 1px, 0 #33333310;
+}
+
+/* Colors */
+
+.color {
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+.text-1 {
+  background-color: #222222;
+}
+
+.text-2 {
+  background-color: #aaaaaa;
+}
+
+.light-grey-1 {
+  background-color: #ebebeb;
+}
+
+.dark-grey-1 {
+  background-color: #636363;
+}
+
+.light-grey-2 {
+  background-color: #cccccc;
+}
+
+.dark-grey-2 {
+  background-color: #333333;
+}
+
+.width100 {
+  width: 100%;
+}
+
+/* Brand Colors */
+.blue {
+  background-color: #00B0B5;
+}
+
+.red {
+  background-color: #EF4236;
+}
+
+.yellow {
+  background-color: #F6B218;
+}
+
+.orange {
+  background-color: #F58020;
+}
+
+.green {
+  background-color: #248747;
+}
+
+.violet {
+  background-color: #3F3D56;
+}
+
+
+/* Logo */
+
+.logoBox {
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.black-bg {
+  background-color: black;
+}
+
+.white-bg {
+  background-color: white;
+  border: 1px solid #ebebeb;
+}
+
+/* Form */
+.myForm {
+  padding: 40px;
+  border-radius: 15px;
+  background: #f3f3f5;
+  box-shadow: 10px 20px 20px -10px rgba(0,0,0,0.1);
+}
+
+textarea{
+  margin-bottom: 80px;
+  min-height: 150px;
+}
+
+.input{
+  height: 44px;
+}
+
+/* Footer */
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.aline {
+  display: inline-block;
+}
+
+.icon {
+  width: 30px;
+  margin: 10px 5px;
+  transition: ease-in-out 500ms;
+}
+
+.icon:hover {
+  text-decoration: none;
+  color: white;
+  transform: scale(1.2);
+}
+
+/* IF NEEDED */
+
+/* body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6em;
+    color: #333333;
+    background-color: #fff;
+  } */
+
+/* Logo */
+
+/* .logo {
+    height: 90px;
+    transition: ease-in-out 500ms;
+  }
+  
+  .logo:hover {
+    text-decoration: none;
+    transform: scale(1.05);
+  } */
+
+/* Button */
+
+/* .btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+  }
+  .btn-primary:focus {
+    background-color: #286090;
+    border-color: #122b40;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+  } */
+
+/* /IF NEEDED */
+
+/* stylesheet css components stanleynapenas.com */
