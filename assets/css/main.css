@@ -1,98 +1,127 @@
 .myBody {
-    font-family: "Montserrat", sans-serif;
-  }
-
-  /* Flex-box */
-  
-  .flex-c-s-between{
-      display: flex;
-      justify-content: space-between;
-  }
-  
-  .flex-r{
-      display: flex;
-      flex-direction: column;
-  }
-
-
-
-.hero{
-    position: relative;
-    height: 100vh;
+  font-family: "Montserrat", sans-serif;
 }
 
+/* Flex-box */
+
+.flex-c-s-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-r {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+}
 
 /* Nav Link */
 
-.brand{
-    display: inline-block;
+.brand {
+  display: inline-block;
 }
 
-.nav-link-container{
-    display: flex;
-    align-items: center;
+.nav-link-container {
+  display: flex;
+  align-items: center;
 }
 
-.myNav-link{
-    color: #aaaaaa;
+.myNav-link {
+  color: #aaaaaa;
 }
 
-.myNav-link:hover{
-    color: #222222;
+.myNav-link:hover {
+  color: #222222;
 }
 
-.contact-btn{
-    background-color: transparent;
-    border: #222222 2px solid;
-    color: #222222;
+.contact-btn {
+  background-color: transparent;
+  border: #222222 2px solid;
+  color: #222222;
 }
 
 .contact-btn:hover,
 .contact-btn:focus,
 .contact-btn.focus {
-    border: #00B0B5 2px solid;
-    color: #00B0B5;
+  border: #00b0b5 2px solid;
+  color: #00b0b5;
 }
 
 /* hero content */
-.subtitle{
-    color: #636363;
-    font-size: 42px;
-    font-weight: 400;
+.subtitle {
+  color: #636363;
+  font-size: 42px;
+  font-weight: 400;
 }
 
-.max-600{
-    max-width: 600px;
+.max-600 {
+  max-width: 600px;
 }
 
 /* Anaimation */
 
-.relative{
-    position: relative;
+.relative {
+  position: relative;
 }
 
-.b-y-p{
-    position: absolute;
-    right: 10%;
-    width: 350px;
-    /* animation: floating-balloon 10s; */
+.b-y-p {
+  position: absolute;
+  right: 10%;
+  width: 350px;
+  animation: floating-balloon 4s ease-in-out infinite;
 }
 
-.your-co{
-    position: absolute;
-    top: 0;
+@keyframes floating-balloon {
+  0%,
+  100% {
     bottom: 0;
-    right: 0;
-    left: 0;
-    z-index: -10;
+  }
+  50% {
+    bottom: -10px;
+  }
 }
 
-.print{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    z-index: -20;
+.your-co {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -10;
+  animation: rotate-your-co 10s ease-in-out infinite;
 }
 
+@keyframes rotate-your-co {
+  0%,
+  100% {
+    transform:rotate(0deg)
+  }
+  50% {
+    transform:rotate(10deg)
+  }
+}
+
+.print {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -20;
+  animation: rotate-print 10s ease-in-out infinite;
+}
+
+
+@keyframes rotate-print {
+    0%,
+    100% {
+      transform:rotate(0deg)
+    }
+    50% {
+      transform:rotate(7deg)
+    }
+  }
