@@ -1,3 +1,98 @@
-body{
-    background-color: red;
+.myBody {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  /* Flex-box */
+  
+  .flex-c-s-between{
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .flex-r{
+      display: flex;
+      flex-direction: column;
+  }
+
+
+
+.hero{
+    position: relative;
+    height: 100vh;
 }
+
+
+/* Nav Link */
+
+.brand{
+    display: inline-block;
+}
+
+.nav-link-container{
+    display: flex;
+    align-items: center;
+}
+
+.myNav-link{
+    color: #aaaaaa;
+}
+
+.myNav-link:hover{
+    color: #222222;
+}
+
+.contact-btn{
+    background-color: transparent;
+    border: #222222 2px solid;
+    color: #222222;
+}
+
+.contact-btn:hover,
+.contact-btn:focus,
+.contact-btn.focus {
+    border: #00B0B5 2px solid;
+    color: #00B0B5;
+}
+
+/* hero content */
+.subtitle{
+    color: #636363;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.max-600{
+    max-width: 600px;
+}
+
+/* Anaimation */
+
+.relative{
+    position: relative;
+}
+
+.b-y-p{
+    position: absolute;
+    right: 10%;
+    width: 350px;
+    /* animation: floating-balloon 10s; */
+}
+
+.your-co{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -10;
+}
+
+.print{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -20;
+}
+

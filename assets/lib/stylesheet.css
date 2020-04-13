@@ -2,7 +2,7 @@
 /* Updated on 10 of April 2020 */
 
 /* Colors that maybe needed */
-/* 
+/*
 TEXT COLORS:
 
 FONT COLOR - DARK = #222222
@@ -12,7 +12,7 @@ NEUTRAL COLORS
 LIGHT GREY 1 - #EBEBEB
 DARK GREY 1 - #636363
 LIGHT GREY 2 - #CCCCCC
-DARK GREY 2 - #33333 
+DARK GREY 2 - #33333
 */
 
 /* MACRO CLASS */
@@ -60,13 +60,11 @@ img {
   margin: auto;
 }
 
-.myContain::after {
-  content: "";
-  display: table;
-  clear: both;
+.clearfix {
+
 }
 
-.clearfix {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
@@ -80,6 +78,41 @@ img {
   float: left;
 }
 
+/* Margins and Paddings */
+.margin-top100 {
+  margin-top: 100px;
+}
+
+.margin-top60 {
+  margin-top: 60px;
+}
+
+.margin-top40 {
+  margin-top: 40px;
+}
+
+.margin-top20 {
+  margin-top: 20px;
+}
+
+.margin-bottom100 {
+  margin-bottom: 100px;
+}
+
+.margin-bottom60 {
+  margin-bottom: 60px;
+}
+
+.margin-bottom40 {
+  margin-bottom: 40px;
+}
+
+.margin-bottom20 {
+  margin-bottom: 20px;
+}
+
+
+
 /* Nav Bar */
 .nav {
   margin-top: 0;
@@ -91,7 +124,8 @@ img {
 }
 .nav-link {
   position: relative;
-  display: inline-block;
+  display: flex;
+  align-items: center;
   padding: 20px;
   margin: auto;
   text-align: left;
@@ -141,7 +175,6 @@ a:focus {
 
 .btn {
   display: inline-block;
-  margin-bottom: 0;
   font-weight: normal;
   text-align: center;
   white-space: nowrap;

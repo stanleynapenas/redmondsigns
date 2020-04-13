@@ -4,14 +4,23 @@
 .body {
   background-color: #f3f3f5;
   padding: 20px;
-  font-family: "Asap", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Fonts and Text */
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6{
+  font-family: "Asap", sans-serif;
+}
+
 
 .h1 {
   font-size: 72px;
-  font-weight: 60;
+  font-weight: 600;
   line-height: 1.2em;
 }
 .h2 {
@@ -59,7 +68,7 @@ blockquote {
 /* LOGO */
 
 .logo {
-  height: 90px;
+  height: 120px;
   transition: ease-in-out 500ms;
 }
 
