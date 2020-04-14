@@ -17,7 +17,20 @@
 .hero {
   position: relative;
   height: 100vh;
+  padding: 40px;
 }
+
+
+@media screen and (max-width: 767px){
+  .hero{
+    height: auto;
+  }
+}
+
+/* Margins */
+
+
+
 
 /* Nav Link */
 
@@ -62,6 +75,24 @@
   max-width: 600px;
 }
 
+@media screen and (max-width: 991px){
+  .max-600{
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .max-600{
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 479px){
+  .max-600{
+    max-width: 300px;
+  }
+}
+
 /* Anaimation */
 
 .relative {
@@ -69,10 +100,36 @@
 }
 
 .b-y-p {
+  z-index: 30;
   position: absolute;
   right: 10%;
+  top: 0%;
   width: 350px;
   animation: floating-balloon 4s ease-in-out infinite;
+}
+
+@media screen and (max-width: 991px){
+  .b-y-p{
+    max-width: 300px;
+    top: 21%;
+    right: 5%;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .b-y-p{
+    max-width: 200px;
+    right: 0%;
+    top: 75%;
+  }
+}
+
+@media screen and (max-width: 479px){
+  .b-y-p{
+    max-width: 150px;
+    right: 0%;
+    bottom: -75%;
+  }
 }
 
 @keyframes floating-balloon {
@@ -137,13 +194,14 @@
 
 .inside-container-b-c{
   width: 400%;
+  height: 300px;
   position: absolute;
   display: flex;
   justify-content: flex-end;
-  bottom: 5%;
+  top: auto;
+  bottom: 0;
   right: 0;
   left: 0;
-  height: 50%;
   animation: big-clouds 25s linear infinite;
 }
 
@@ -175,14 +233,15 @@
 }
 
 .inside-container-s-c{
+  height: 300px;
   width: 400%;
   position: absolute;
   display: flex;
   justify-content: flex-end;
-  bottom: 5%;
+  top: auto;
+  bottom: 0;
   right: 0;
   left: 0;
-  height: 50%;
   animation: small-clouds 45s linear infinite;
 }
 

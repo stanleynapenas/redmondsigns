@@ -63,6 +63,101 @@ blockquote {
   border-left: 3px solid #ebebeb;
 }
 
+/* JQuery Typography */
+
+/* Tablet */
+@media screen and (max-width: 991px) and (max-width: 991px) {
+  .h1 {
+    font-size: 60px;
+  }
+
+  .h2 {
+    font-size: 48px;
+  }
+
+  .h3 {
+    font-size: 24px;
+  }
+
+  .h4 {
+    font-size: 18px;
+  }
+
+  .h5 {
+    font-size: 14px;
+  }
+
+  .h6 {
+    font-size: 14px;
+  }
+
+  .p {
+    font-size: 14px;
+    height: 1.6em;
+  }
+
+  .blockquote {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-left: 3px solid #ebebeb;
+  }
+
+}
+/* /End Tablet */
+
+/* Landscape */
+@media screen and (max-width: 767px) {
+  .h1 {
+    font-size: 48px;
+  }
+
+  .h2 {
+    font-size: 36px;
+  }
+
+  .h3 {
+    font-size: 20px;
+  }
+
+  .h4 {
+    font-size: 16px;
+  }
+  /* Didn't change */
+
+  /* /Didn't change */
+}
+/* /End Landscape */
+
+/* Mobile */
+@media screen and (max-width: 479px) {
+  .h1 {
+    font-size: 30px;
+  }
+
+  .h2 {
+    font-size: 24px;
+  }
+
+  .h3 {
+    font-size: 20px;
+  }
+
+  .h4 {
+    font-size: 18px;
+  }
+
+
+  .p {
+    font-size: 13px;
+    height: 1.6em;
+  }
+
+}
+/* /End Mobile */
+/* /End Jquery Typography */
+
+
 
 
 /* LOGO */
