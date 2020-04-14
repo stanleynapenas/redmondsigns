@@ -125,3 +125,90 @@
       transform:rotate(7deg)
     }
   }
+
+.clouds-container{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 50%;
+  overflow: hidden;
+}
+
+.inside-container-b-c{
+  width: 400%;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  bottom: 5%;
+  right: 0;
+  left: 0;
+  height: 50%;
+  animation: big-clouds 25s linear infinite;
+}
+
+@keyframes big-clouds {
+ 
+  100% {
+    transform: translateX(-66.6666%);  
+  }
+}
+
+.cloud-big-1{
+  display: block;
+  width: 50%;
+  height: 300px;
+  background: url(../img/delivering-with-flying-colors-big-clouds.svg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+}
+
+.cloud-big-2{
+  display: block;
+  width: 50%;
+  height: 300px;
+  background: url(../img/delivering-with-flying-colors-big-clouds-2.svg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+}
+
+.inside-container-s-c{
+  width: 400%;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  bottom: 5%;
+  right: 0;
+  left: 0;
+  height: 50%;
+  animation: small-clouds 45s linear infinite;
+}
+
+@keyframes small-clouds {
+ 
+  100% {
+    transform: translateX(-66.6666%);  
+  }
+}
+
+.cloud-small-1{
+  display: block;
+  width: 50%;
+  height: 300px;
+  background: url(../img/delivering-with-flying-colors-small-clouds.svg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+}
+
+.cloud-small-2{
+  display: block;
+  width: 50%;
+  height: 300px;
+  background: url(../img/delivering-with-flying-colors-small-clouds-2.svg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+}
