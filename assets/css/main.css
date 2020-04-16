@@ -133,13 +133,8 @@
 }
 
 @keyframes floating-balloon {
-  0%,
-  100% {
-    bottom: 0;
-  }
-  50% {
-    bottom: -10px;
-  }
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
 }
 
 .your-co {
@@ -190,6 +185,7 @@
   left: 0;
   height: 50%;
   overflow: hidden;
+  z-index: -10;
 }
 
 .inside-container-b-c{
@@ -208,7 +204,10 @@
 @keyframes big-clouds {
  
   100% {
-    transform: translateX(-66.6666%);  
+    transform: translateX(-50%);  
+  }
+  0% {
+    transform: translateX(0%);  
   }
 }
 
@@ -248,7 +247,10 @@
 @keyframes small-clouds {
  
   100% {
-    transform: translateX(-66.6666%);  
+    transform: translateX(-50%);  
+  }
+  0% {
+    transform: translateX(0%);  
   }
 }
 
@@ -270,4 +272,25 @@
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: contain;
+}
+
+
+/* About section */
+
+.logo-div{
+  background-color: #EBEBEB;
+  padding: 20px 0px;
+}
+
+.logo-contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.paypal{
+  display: inline-block;
+  height: 25px;
 }
