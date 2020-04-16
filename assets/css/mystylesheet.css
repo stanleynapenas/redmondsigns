@@ -49,9 +49,10 @@
   line-height: 1.2em;
 }
 .p {
+  color: #636363;
   font-size: 15px;
   font-weight: 400;
-  font-family: 'Asap', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.6em;
 }
 

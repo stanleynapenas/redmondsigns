@@ -290,7 +290,38 @@
     flex-wrap: wrap;
 }
 
-.paypal{
+.logos{
   display: inline-block;
+  filter: grayscale(1);
+}
+
+.logos:hover{
+  filter: grayscale(0);
+}
+
+
+.paypal{
   height: 25px;
+}
+
+.fujifilm{
+  height: 15px;
+}
+
+.google{
+  height: 25px;
+}
+
+.heineken{
+  height: 20px;
+}
+
+/* About section */
+.about-section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.width400{
+  max-width: 400px;
 }
